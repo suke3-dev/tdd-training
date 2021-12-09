@@ -1,4 +1,5 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using UtilityLibraries;
 
 namespace StringLibraryTest;
 
@@ -6,10 +7,11 @@ namespace StringLibraryTest;
 public class UnitTest1
 {
     [TestMethod]
-    public void 数を文字列に変換する()
+    public void _1を渡すと文字列1を返す()
     {
-        var test = 1;
-        var test2 = 2;
-        Assert.AreEqual(test, test2);
+        string actual = StringLibrary.convertTest(1);
+        Assert.AreEqual("1", actual);
     }
+
+   
 }
