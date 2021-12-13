@@ -1,18 +1,19 @@
 ﻿namespace UtilityLibraries {
 
-public static class StringLibrary
-{
-    public static bool StartsWithUpper(this string? str)
+    public static class StringLibrary
     {
-        if (string.IsNullOrWhiteSpace(str))
-            return false;
+        public static string convertTest(int i)
+        {
 
-        char ch = str[0];
-        return char.IsUpper(ch);
+            if (i % 3 == 0)
+            {
+                return "Fizz";
+            }
+            if (i % 5 == 0)
+            {
+                return "Buzz";
+            }
+            return i.ToString();
+        }
     }
-
-    public static string convertTest(int i) {
-        return "1";
-    }
-}
 }
