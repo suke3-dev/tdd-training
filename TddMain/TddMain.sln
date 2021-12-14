@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddMain", "TddMain\TddMain.csproj", "{7756B3A3-FA5E-4C5B-8A9C-E026D4648465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddMainTest", "TddMainTest\TddMainTest.csproj", "{6ADD5693-B06D-437F-B821-71A6D78D2C66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7756B3A3-FA5E-4C5B-8A9C-E026D4648465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7756B3A3-FA5E-4C5B-8A9C-E026D4648465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7756B3A3-FA5E-4C5B-8A9C-E026D4648465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7756B3A3-FA5E-4C5B-8A9C-E026D4648465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ADD5693-B06D-437F-B821-71A6D78D2C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADD5693-B06D-437F-B821-71A6D78D2C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADD5693-B06D-437F-B821-71A6D78D2C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADD5693-B06D-437F-B821-71A6D78D2C66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35BB47D1-BF22-4AD9-B9B3-EF4B5A06FDC0}
+	EndGlobalSection
+EndGlobal

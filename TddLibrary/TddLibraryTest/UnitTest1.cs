@@ -8,19 +8,19 @@ namespace TddLibraryTest
     {
         private FizzBuzz fizzbuzz;
 
-        // ‘O€”õ
+        // å‰æº–å‚™
         [SetUp]
         public void Setup()
         {
             fizzbuzz = new FizzBuzz();
         }
 
-        
-        class _3‚Ì”{”‚Ì‚Í”‚Ì‘ã‚í‚è‚ÉFizz‚ğ•ÏŠ·‚·‚é
+
+        class _3ã®å€æ•°ã®æ™‚ã¯æ•°ã®ä»£ã‚ã‚Šã«Fizzã‚’å¤‰æ›ã™ã‚‹
         {
             private FizzBuzz fizzbuzz;
 
-            // ‘O€”õ
+            // å‰æº–å‚™
             [SetUp]
             public void Setup()
             {
@@ -29,17 +29,17 @@ namespace TddLibraryTest
 
 
             [Test]
-            public void _3‚ğ“n‚·‚Æ•¶š—ñFizz‚ğ•Ô‚·()
+            public void _3ã‚’æ¸¡ã™ã¨æ–‡å­—åˆ—Fizzã‚’è¿”ã™()
             {
                 Assert.AreEqual("Fizz", fizzbuzz.convertTest(3));
             }
         }
 
-        class _5‚Ì”{”‚Ì‚Í”‚Ì‘ã‚í‚è‚ÉBuzz‚ğ•ÏŠ·‚·‚é
+        class _5ã®å€æ•°ã®æ™‚ã¯æ•°ã®ä»£ã‚ã‚Šã«Buzzã‚’å¤‰æ›ã™ã‚‹
         {
             private FizzBuzz fizzbuzz;
 
-            // ‘O€”õ
+            // å‰æº–å‚™
             [SetUp]
             public void Setup()
             {
@@ -48,17 +48,17 @@ namespace TddLibraryTest
 
 
             [Test]
-            public void _5‚ğ“n‚·‚Æ•¶š—ñBuzz‚ğ•Ô‚·()
+            public void _5ã‚’æ¸¡ã™ã¨æ–‡å­—åˆ—Buzzã‚’è¿”ã™()
             {
                 Assert.AreEqual("Buzz", fizzbuzz.convertTest(5));
             }
         }
 
-        class _‚»‚Ì‘¼‚Ì”‚Ì‚Í‚»‚Ì‚Ü‚Ü•¶š—ñ‚É•ÏŠ·‚·‚é
+        class _ãã®ä»–ã®æ•°ã®æ™‚ã¯ãã®ã¾ã¾æ–‡å­—åˆ—ã«å¤‰æ›ã™ã‚‹
         {
             private FizzBuzz fizzbuzz;
 
-            // ‘O€”õ
+            // å‰æº–å‚™
             [SetUp]
             public void Setup()
             {
@@ -66,13 +66,13 @@ namespace TddLibraryTest
             }
 
             [Test]
-            public void _1‚ğ“n‚·‚Æ•¶š—ñ1‚ğ•Ô‚·()
+            public void _1ã‚’æ¸¡ã™ã¨æ–‡å­—åˆ—1ã‚’è¿”ã™()
             {
                 Assert.AreEqual("1", fizzbuzz.convertTest(1));
             }
 
             [Test]
-            public void _2‚ğ“n‚·‚Æ•¶š—ñ2‚ğ•Ô‚·()
+            public void _2ã‚’æ¸¡ã™ã¨æ–‡å­—åˆ—2ã‚’è¿”ã™()
             {
                 Assert.AreEqual("2", fizzbuzz.convertTest(2));
             }
